@@ -1,0 +1,18 @@
+/* I had to use CSS in order to make de carousel working 
+because multiple peers aren't working in React */
+
+#iphone-radio1:checked ~ .first {
+	margin-left: 0;
+}
+
+#iphone-radio2:checked ~ .first {
+	margin-left: -20%;
+}
+
+#iphone-radio3:checked ~ .first {
+	margin-left: -40%;
+}
+
+#iphone-radio4:checked ~ .first {
+	margin-left: -60%;
+}

@@ -7,13 +7,13 @@
 		@apply flex h-6 w-12 items-center justify-start rounded-full border-2 border-slate-600 bg-slate-200 duration-300 hover:cursor-pointer;
 	}
 	.dark-button {
-		@apply ml-1 h-4 w-4 rounded-full bg-[#23252f];
+		@apply ml-1 h-4 w-4 rounded-full bg-[#3b3a51];
 	}
 
 	.light-bg {
 		@apply flex h-6 w-12 transform items-center justify-end rounded-full border-2 border-slate-300 bg-[#23252f] duration-300 hover:cursor-pointer;
 	}
 	.light-button {
-		@apply mr-1 h-4 w-4 rounded-full bg-slate-300;
+		@apply mr-1 h-4 w-4 rounded-full bg-green-300;
 	}
 }

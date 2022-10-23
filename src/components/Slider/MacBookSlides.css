@@ -1,0 +1,36 @@
+/* I had to use CSS in order to make de carousel working 
+because multiple peers aren't working in React */
+
+#radio1:checked ~ .first {
+	margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+	margin-left: -20%;
+}
+
+#radio3:checked ~ .first {
+	margin-left: -40%;
+}
+
+#radio4:checked ~ .first {
+	margin-left: -60%;
+}
+
+/*css for automatic navigation*/
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+	border-bottom: 3px solid #86efac;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+	border-bottom: 3px solid #86efac;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+	border-bottom: 3px solid #86efac;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+	border-bottom: 3px solid #86efac;
+}
