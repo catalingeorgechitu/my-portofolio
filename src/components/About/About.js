@@ -2,7 +2,6 @@ import React from 'react';
 import profilePic from '../../assets/img/cartoon-me.png';
 import realProfilePic from '../../assets/img/real-me.png';
 
-
 export default function About() {
 	return (
 		<div className='bg-[#1a1c23] flex  items-center flex-col w-full py-16 text-white'>
@@ -14,12 +13,12 @@ export default function About() {
 				<img
 					className='w-64 h-64 rounded-full'
 					src={realProfilePic}
-					alt='Profile picture'
+					alt='Profile'
 				/>
 				<img
 					className='w-64 h-64 rounded-full absolute hover:opacity-0 duration-300'
 					src={profilePic}
-					alt='Profile picture'
+					alt='Profile'
 				/>
 				<p className='text-lg text-center my-auto'>
 					With the help of a very well defined set of skills in the areas of
