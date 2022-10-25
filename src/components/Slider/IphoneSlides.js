@@ -1,8 +1,8 @@
 import React from 'react';
-import team1phone from '../../assets/img/team-1-phone.jpg';
-import team2phone from '../../assets/img/team-2-phone.jpg';
-import team3phone from '../../assets/img/team-3-phone.jpg';
-import team4phone from '../../assets/img/team-4-phone.jpg';
+import team1phone from '../../assets/img/cocktail-recipes-phone.jpg';
+import team2phone from '../../assets/img/food-recipes-phone.jpg';
+import team3phone from '../../assets/img/best-seo-agency-phone.jpg';
+import team4phone from '../../assets/img/resume-builder-phone.jpg';
 import iphone from '../../assets/img/iphone12pro.png';
 import './IphoneSlides.css';
 
@@ -78,32 +78,8 @@ export default function IphoneSlides() {
 									alt='team4'
 								/>
 							</div>
-							{/* <!--slide images end-->
-                    <!--automatic navigation start--> */}
-							{/* <div className='iphone-navigation-auto'>
-								<div className='auto-btn1'>First project</div>
-								<div className='auto-btn2'>Second project</div>
-								<div className='auto-btn3'>Third project</div>
-								<div className='auto-btn4'>Fourth project</div>
-							</div> */}
-							{/* <!--automatic navigation end--> */}
+							{/* <!--slide images end--> */}
 						</div>
-						{/* <!--manual navigation start--> */}
-						{/* <div className='iphone-navigation-manual'>
-							<label htmlFor='iphone-radio1' className='iphone-manual-btn'>
-								First project
-							</label>
-							<label htmlFor='iphone-radio2' className='iphone-manual-btn'>
-								Second project
-							</label>
-							<label htmlFor='iphone-radio3' className='iphone-manual-btn'>
-								Third project
-							</label>
-							<label htmlFor='iphone-radio4' className='iphone-manual-btn'>
-								Fourth project
-							</label>
-						</div> */}
-						{/* <!--manual navigation end--> */}
 					</div>
 					{/* <!--image slider end--> */}
 				</div>

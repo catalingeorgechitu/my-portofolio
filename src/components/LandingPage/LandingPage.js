@@ -9,7 +9,10 @@ export default function LandingPage({ handleClickScroll }) {
 			<h1 className='text-6xl mt-5 font-bold'>
 				I create beautiful websites your clients will love
 			</h1>
-			<button className='dark:bg-[#3b3a51] px-12 py-3 bg-green-300 rounded-lg my-10 font-bold outline-none hover:-translate-y-1 duration-200'>
+			<button
+				onClick={() => handleClickScroll('contact')}
+				className='dark:bg-[#3b3a51] px-12 py-3 bg-green-300 rounded-lg my-10 font-bold outline-none hover:-translate-y-1 duration-200'
+			>
 				Contact me
 			</button>
 			<button onClick={() => handleClickScroll('slider')}>

@@ -9,3 +9,25 @@
 		@apply font-body;
 	}
 }
+
+/* custom scrollbar classic CSS */
+::-webkit-scrollbar {
+	width: 20px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #75787d;
+	border-radius: 20px;
+	border: 6px solid transparent;
+	background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: #a09fa1;
+}
+
+/* end of custom scrollbar CSS */

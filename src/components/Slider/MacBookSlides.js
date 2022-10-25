@@ -1,8 +1,8 @@
 import React from 'react';
-import team1 from '../../assets/img/team-1.jpg';
-import team2 from '../../assets/img/team-2.jpg';
-import team3 from '../../assets/img/team-3.jpg';
-import team4 from '../../assets/img/team-4.jpg';
+import team1 from '../../assets/img/cocktail-recipes.jpg';
+import team2 from '../../assets/img/food-recipes.jpg';
+import team3 from '../../assets/img/best-seo-agency.jpg';
+import team4 from '../../assets/img/resume-builder.jpg';
 import macbook from '../../assets/img/macbook.png';
 import './MacBookSlides.css';
 
@@ -67,16 +67,16 @@ export default function MacBookSlides() {
 							{/* <!--automatic navigation start--> */}
 							<div className='navigation-auto absolute flex w-[965px] justify-around mt-[720px]'>
 								<div className='auto-btn1 border-transparent border-solid border-b-2 p-1 duration-500 dark:border-[#3b3a51]'>
-									First project
+									Cocktail recipes
 								</div>
 								<div className='auto-btn2 border-transparent border-solid border-b-2 p-1 duration-500 dark:border-[#3b3a51]'>
-									Second project
+									Food recipes
 								</div>
 								<div className='auto-btn3 border-transparent border-solid border-b-2 p-1 duration-500 dark:border-[#3b3a51]'>
-									Third project
+									SEO Agency
 								</div>
 								<div className='auto-btn4 border-transparent border-solid border-b-2 p-1 duration-500 dark:border-[#3b3a51]'>
-									Fourth project
+									Resume builder
 								</div>
 							</div>
 							{/* <!--automatic navigation end--> */}
