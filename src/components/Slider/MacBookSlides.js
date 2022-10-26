@@ -17,13 +17,12 @@ export default function MacBookSlides() {
 	}, 4000);
 
 	return (
-		<>
-			<img className='absolute max-w-7xl' src={macbook} alt='MacBook' />
-			<div className='macbook-slider-container'>
-				<div className='slider-container relative m-0 pt-[53px] flex justify-center items-center min-w-[1280px]'>
+		<div className='hidden md:block macbook relative scale-50 lg:scale-75 xl:scale-100 w-full h-full'>
+			<div className='macbook-slider-container absolute top-[53px] left-[157px]'>
+				<div className='slider-container'>
 					{/* <!--image slider start--> */}
 					<div className='slider w-[965px] h-[602px] overflow-hidden'>
-						<div className='slides w-[500%] h-[602px] flex'>
+						<div className='slides w-[500%] flex'>
 							{/* <!--radio buttons start--> */}
 							<input
 								className='hidden peer/one'
@@ -85,6 +84,7 @@ export default function MacBookSlides() {
 					{/* <!--image slider end--> */}
 				</div>
 			</div>
-		</>
+			<img className='absolute min-w-[1280px]' src={macbook} alt='MacBook' />
+		</div>
 	);
 }

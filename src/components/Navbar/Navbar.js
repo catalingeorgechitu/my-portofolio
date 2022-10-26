@@ -5,15 +5,15 @@ import CV from '../../assets/CV.pdf';
 
 export default function Navbar({ handleClickScroll }) {
 	return (
-		<nav className='flex justify-between items-center pt-10'>
+		<nav className='flex justify-between items-center pt-10 px-5 xl:px-0'>
 			<div onClick={() => handleClickScroll('home')}>
 				<img
-					className='w-12 h-12 bg-white p-0 rounded-full hover:cursor-pointer hover:scale-105 duration-200'
+					className='w-10 h-10 md:w-12 md:h-12 bg-white p-0 rounded-full hover:cursor-pointer hover:scale-105 duration-200'
 					src={logo}
 					alt='Logo'
 				/>
 			</div>
-			<ul className='flex gap-x-3 font-bold'>
+			<ul className='gap-x-3 font-bold hidden md:flex'>
 				<li
 					className='hover:cursor-pointer hover:bg-[#3b3a51] px-3 py-2 rounded-lg duration-200'
 					onClick={() => handleClickScroll('about')}

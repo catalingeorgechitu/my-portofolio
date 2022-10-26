@@ -17,11 +17,11 @@ export default function IphoneSlides() {
 	}, 4000);
 
 	return (
-		<>
-			<div className='iphone-big-slider-container absolute right-[57px] top-[210px] max-h-screen'>
+		<div className='iphone relative scale-100 md:scale-50 lg:scale-75 xl:scale-100 w-full flex justify-center'>
+			<div className='iphone-big-slider-container absolute md:left-[250px] xl:left-[300px] 2xl:left-[400px] top-[10px] lg:top-[180px]'>
 				<div className='iphone-slider-container'>
 					{/* <!--image slider start--> */}
-					<div className='iphone-slider w-[255px] h-[537px] rounded-3xl overflow-hidden'>
+					<div className='iphone-slider w-[270px] h-[580px] rounded-3xl overflow-hidden'>
 						<div className='iphone-slides w-[500%] flex'>
 							{/* <!--radio buttons start--> */}
 							<input
@@ -52,28 +52,28 @@ export default function IphoneSlides() {
                     <!--slide images start--> */}
 							<div className='iphone-slide first duration-1000'>
 								<img
-									className='w-[255px] h-[537px]'
+									className='w-[270px] h-[580px]'
 									src={team1phone}
 									alt='team1'
 								/>
 							</div>
 							<div className='iphone-slide duration-1000'>
 								<img
-									className='w-[255px] h-[537px]'
+									className='w-[270px] h-[580px]'
 									src={team2phone}
 									alt='team2'
 								/>
 							</div>
 							<div className='iphone-slide duration-1000'>
 								<img
-									className='w-[255px] h-[537px]'
+									className='w-[270px] h-[580px]'
 									src={team3phone}
 									alt='team3'
 								/>
 							</div>
 							<div className='iphone-slide duration-1000'>
 								<img
-									className='w-[255px] h-[537px]'
+									className='w-[270px] h-[580px]'
 									src={team4phone}
 									alt='team4'
 								/>
@@ -85,10 +85,10 @@ export default function IphoneSlides() {
 				</div>
 			</div>
 			<img
-				className='scale-75 absolute right-0 top-[104px]'
+				className='absolute min-w-max md:left-[240px] xl:left-[290px] 2xl:left-[390px] lg:top-[170px] h-[600px]'
 				src={iphone}
 				alt='iPhone 12 Pro'
 			/>
-		</>
+		</div>
 	);
 }
