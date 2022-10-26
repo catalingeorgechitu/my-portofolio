@@ -5,7 +5,7 @@ export default function About() {
 	return (
 		<section
 			id='about'
-			className='lg:h-screen snap-start mx-auto flex justify-center items-center'
+			className='lg:h-screen snap-start mx-auto flex justify-center items-center py-10 lg:py-0'
 		>
 			<div className='bg-[#1a1c23] flex items-center flex-col w-full py-16 px-5 text-white'>
 				<h1 className='text-3xl sm:text-4xl md:text-5xl max-w-3xl text-center'>
