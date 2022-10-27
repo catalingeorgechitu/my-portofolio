@@ -2,10 +2,11 @@ import React from 'react';
 import Darkmode from '../Darkmode/Darkmode';
 import logo from '../../assets/img/logo.png';
 import CV from '../../assets/CV.pdf';
+import MobileNavbar from './MobileNavbar';
 
 export default function Navbar({ handleClickScroll }) {
 	return (
-		<nav className='flex justify-between items-center pt-10 px-5 xl:px-0'>
+		<nav className='flex justify-between pt-10 px-5 xl:px-0'>
 			<div onClick={() => handleClickScroll('home')}>
 				<img
 					className='w-10 h-10 md:w-12 md:h-12 bg-white p-0 rounded-full hover:cursor-pointer hover:scale-105 duration-200'
@@ -54,6 +55,7 @@ export default function Navbar({ handleClickScroll }) {
 					<Darkmode />
 				</li>
 			</ul>
+			<MobileNavbar handleClickScroll={handleClickScroll} />
 		</nav>
 	);
 }
