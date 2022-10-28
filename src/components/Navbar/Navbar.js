@@ -3,6 +3,8 @@ import Darkmode from '../Darkmode/Darkmode';
 import logo from '../../assets/img/logo.png';
 import CV from '../../assets/CV.pdf';
 import MobileNavbar from './MobileNavbar';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 export default function Navbar({ handleClickScroll }) {
 	return (
@@ -32,6 +34,7 @@ export default function Navbar({ handleClickScroll }) {
 				<a href={CV} download='CV Chitu Catalin'>
 					<li className='hover:cursor-pointer hover:bg-[#3b3a51] px-3 py-2 rounded-lg duration-200'>
 						cv
+						<FontAwesomeIcon className='text-xs px-1' icon={faDownload} />
 					</li>
 				</a>
 

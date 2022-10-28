@@ -13,7 +13,7 @@ export default function Contact({ handleClickScroll }) {
 			id='contact'
 			className='mx-auto flex snap-start flex-col items-center pt-10 lg:h-screen lg:py-0'
 		>
-			<div className='flex flex-col gap-2 lg:gap-0 lg:flex-row items-center justify-around w-full h-full py-10 mb-20 lg:my-40 bg-[#1a1c23] text-white'>
+			<div className='flex flex-col gap-2 lg:gap-0 lg:flex-row items-center justify-around w-full h-full py-10 mb-20 lg:my-40 bg-slate-500 dark:bg-[#1a1c23] text-white'>
 				<div className='contact-container text-center text-base font-bold lg:text-start xl:text-xl'>
 					<img
 						className='mx-auto h-20 w-20 rounded-full lg:mx-0'

@@ -12,7 +12,7 @@ function App() {
 
 	return (
 		<div className='dark:bg-[#23252f] text-[#001925] dark:text-white duration-500'>
-			<div className='mx-auto h-screen lg:snap-y lg:snap-mandatory overflow-y-scroll lg:px-0'>
+			<div className='mx-auto h-screen xl:snap-y xl:snap-mandatory overflow-y-scroll lg:px-0'>
 				<LandingPage handleClickScroll={handleClickScroll} />
 				<Slider />
 				<About />

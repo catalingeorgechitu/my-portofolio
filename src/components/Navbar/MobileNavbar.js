@@ -3,6 +3,7 @@ import Darkmode from '../Darkmode/Darkmode';
 import CV from '../../assets/CV.pdf';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 export default function MobileNavbar({ handleClickScroll }) {
 	const [opened, setOpened] = useState(false);
@@ -43,6 +44,7 @@ export default function MobileNavbar({ handleClickScroll }) {
 					>
 						<li className='hover:cursor-pointer hover:bg-[#3b3a51] px-3 py-2 rounded-lg duration-200'>
 							cv
+							<FontAwesomeIcon className='text-xs px-1' icon={faDownload} />
 						</li>
 					</a>
 
