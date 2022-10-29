@@ -18,7 +18,7 @@ export default function MobileNavbar({ handleClickScroll }) {
 			{opened && (
 				<ul className='min-w-[170px] border dark:border-slate-500 rounded-md p-2 mt-5 text-center'>
 					<li
-						className='hover:cursor-pointer hover:bg-[#3b3a51] px-3 py-2 rounded-lg duration-200'
+						className='hover:cursor-pointer hover:bg-[#3b3a51] hover:text-white px-3 py-2 rounded-lg duration-200 h-fit'
 						onClick={() => {
 							handleClickScroll('about');
 							setOpened(false);
@@ -28,7 +28,7 @@ export default function MobileNavbar({ handleClickScroll }) {
 					</li>
 
 					<li
-						className='hover:cursor-pointer hover:bg-[#3b3a51] px-3 py-2 rounded-lg duration-200'
+						className='hover:cursor-pointer hover:bg-[#3b3a51] hover:text-white px-3 py-2 rounded-lg duration-200 h-fit'
 						onClick={() => {
 							handleClickScroll('portofolio');
 							setOpened(false);
@@ -42,14 +42,14 @@ export default function MobileNavbar({ handleClickScroll }) {
 						onClick={() => setOpened(false)}
 						download='CV Chitu Catalin'
 					>
-						<li className='hover:cursor-pointer hover:bg-[#3b3a51] px-3 py-2 rounded-lg duration-200'>
+						<li className='hover:cursor-pointer hover:bg-[#3b3a51] hover:text-white px-3 py-2 rounded-lg duration-200 h-fit'>
 							cv
 							<FontAwesomeIcon className='text-xs px-1' icon={faDownload} />
 						</li>
 					</a>
 
 					<li
-						className='hover:cursor-pointer hover:bg-[#3b3a51] px-3 py-2 rounded-lg duration-200'
+						className='hover:cursor-pointer hover:bg-[#3b3a51] hover:text-white px-3 py-2 rounded-lg duration-200 h-fit'
 						onClick={() => {
 							handleClickScroll('contact');
 							setOpened(false);
@@ -64,7 +64,7 @@ export default function MobileNavbar({ handleClickScroll }) {
 						target='_blank'
 						rel='noopener noreferrer nofollow'
 					>
-						<li className='hover:cursor-pointer hover:bg-[#3b3a51] px-3 py-2 rounded-lg duration-200'>
+						<li className='hover:cursor-pointer hover:bg-[#3b3a51] hover:text-white px-3 py-2 rounded-lg duration-200 h-fit'>
 							github
 						</li>
 					</a>

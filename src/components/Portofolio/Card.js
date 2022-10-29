@@ -28,7 +28,11 @@ export default function Card({
 				))}
 			</ul>
 			<div className='px-5 py-2 flex flex-col'>
-				<a href={projectLink}>
+				<a
+					href={projectLink}
+					target='_blank'
+					rel='noreferrer noopener nofollow'
+				>
 					<h5 className='mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white'>
 						{projectTitle}
 					</h5>
@@ -38,6 +42,8 @@ export default function Card({
 				</p>
 				<a
 					href={projectGithubLink}
+					target='_blank'
+					rel='noreferrer noopener nofollow'
 					className='w-fit mx-auto py-2 px-3 text-sm font-medium text-center text-white bg-slate-600 rounded-lg hover:bg-slate-700 focus:ring-2 focus:outline-none focus:ring-slate-900'
 				>
 					Github code

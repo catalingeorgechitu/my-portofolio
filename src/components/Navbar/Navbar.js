@@ -18,28 +18,28 @@ export default function Navbar({ handleClickScroll }) {
 			</div>
 			<ul className='gap-x-3 font-bold hidden md:flex'>
 				<li
-					className='hover:cursor-pointer hover:bg-[#3b3a51] px-3 py-2 rounded-lg duration-200'
+					className='hover:cursor-pointer hover:bg-[#3b3a51] hover:text-white px-3 py-2 rounded-lg duration-200 h-fit'
 					onClick={() => handleClickScroll('about')}
 				>
 					about
 				</li>
 
 				<li
-					className='hover:cursor-pointer hover:bg-[#3b3a51] px-3 py-2 rounded-lg duration-200'
+					className='hover:cursor-pointer hover:bg-[#3b3a51] hover:text-white px-3 py-2 rounded-lg duration-200 h-fit'
 					onClick={() => handleClickScroll('portofolio')}
 				>
 					portofolio
 				</li>
 
 				<a href={CV} download='CV Chitu Catalin'>
-					<li className='hover:cursor-pointer hover:bg-[#3b3a51] px-3 py-2 rounded-lg duration-200'>
+					<li className='hover:cursor-pointer hover:bg-[#3b3a51] hover:text-white px-3 py-2 rounded-lg duration-200 h-fit'>
 						cv
 						<FontAwesomeIcon className='text-xs px-1' icon={faDownload} />
 					</li>
 				</a>
 
 				<li
-					className='hover:cursor-pointer hover:bg-[#3b3a51] px-3 py-2 rounded-lg duration-200'
+					className='hover:cursor-pointer hover:bg-[#3b3a51] hover:text-white px-3 py-2 rounded-lg duration-200 h-fit'
 					onClick={() => handleClickScroll('contact')}
 				>
 					contact
@@ -50,7 +50,7 @@ export default function Navbar({ handleClickScroll }) {
 					target='_blank'
 					rel='noopener noreferrer nofollow'
 				>
-					<li className='hover:cursor-pointer hover:bg-[#3b3a51] px-3 py-2 rounded-lg duration-200'>
+					<li className='hover:cursor-pointer hover:bg-[#3b3a51] hover:text-white px-3 py-2 rounded-lg duration-200 h-fit'>
 						github
 					</li>
 				</a>
