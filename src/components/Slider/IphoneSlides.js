@@ -2,7 +2,7 @@ import React from 'react';
 import team1phone from '../../assets/img/cocktail-recipes-phone.jpg';
 import team2phone from '../../assets/img/food-recipes-phone.jpg';
 import team3phone from '../../assets/img/best-seo-agency-phone.jpg';
-import team4phone from '../../assets/img/resume-builder-phone.jpg';
+import team4phone from '../../assets/img/movie-app-phone.jpg';
 import iphone from '../../assets/img/iphone12pro.png';
 import './IphoneSlides.css';
 

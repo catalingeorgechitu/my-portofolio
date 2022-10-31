@@ -41,7 +41,7 @@ export default function Portofolio() {
 					market, to find movies similar to your preferences more quickly
 					and to add movies to favorites without having to create a
 					account.'
-					projectGithubLink='#'
+					projectGithubLink='https://github.com/catalingeorgechitu/movie-app'
 				/>
 
 				<Card

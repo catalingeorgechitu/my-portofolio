@@ -2,7 +2,7 @@ import React from 'react';
 import team1 from '../../assets/img/cocktail-recipes.jpg';
 import team2 from '../../assets/img/food-recipes.jpg';
 import team3 from '../../assets/img/best-seo-agency.jpg';
-import team4 from '../../assets/img/resume-builder.jpg';
+import team4 from '../../assets/img/movie-app.jpg';
 import macbook from '../../assets/img/macbook.png';
 import './MacBookSlides.css';
 
@@ -75,7 +75,7 @@ export default function MacBookSlides() {
 									SEO Agency
 								</div>
 								<div className='auto-btn4 border-transparent border-solid border-b-2 p-1 duration-500 dark:border-[#3b3a51]'>
-									Resume builder
+									Movie app
 								</div>
 							</div>
 							{/* <!--automatic navigation end--> */}
