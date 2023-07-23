@@ -9,7 +9,7 @@ export default function Card({
 	projectGithubLink,
 }) {
 	return (
-		<div className='max-w-[410px] bg-white rounded-lg shadow-md dark:bg-[#1a1c23] group'>
+		<div className='max-w-[380px] bg-white rounded-lg shadow-md dark:bg-[#1a1c23] group'>
 			<a href={projectLink} target='_blank' rel='noreferrer noopener nofollow'>
 				<img
 					className='rounded-t-lg group-hover:-translate-y-2 duration-200'

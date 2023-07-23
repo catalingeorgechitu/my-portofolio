@@ -6,9 +6,9 @@ export default function Slider() {
 	return (
 		<section
 			id='slider'
-			className='min-h-[600px] my-10 md:my-0 lg:h-screen snap-start max-w-7xl mx-auto'
+			className='min-h-[800px] content-center my-10 md:my-0 xl:h-screen snap-start max-w-7xl mx-auto scale-50 xl:scale-75 2xl:scale-100'
 		>
-			<div className='w-full h-full mx-auto flex justify-center lg:pt-20'>
+			<div className='w-full min-h-[800px] mx-auto flex justify-center lg:pt-20'>
 				<MacBookSlides />
 				<IphoneSlides />
 			</div>

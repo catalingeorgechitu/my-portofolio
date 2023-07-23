@@ -8,7 +8,7 @@ export default function LandingPage({ handleClickScroll }) {
 		<section
 			id='home'
 			className='h-screen max-w-7xl mx-auto snap-start flex flex-col'
-		>			
+		>
 			<header>
 				<Navbar handleClickScroll={handleClickScroll} />
 			</header>

@@ -11,7 +11,7 @@ export default function Portofolio() {
 	return (
 		<section
 			id='portofolio'
-			className='lg:h-screen snap-start max-w-7xl mx-auto flex items-center '
+			className='xl:h-screen snap-start max-w-7xl mx-auto flex items-center scale-50 xl:scale-75 2xl:scale-100'
 		>
 			<div className='flex flex-wrap gap-6 items-center justify-center'>
 				<Card
